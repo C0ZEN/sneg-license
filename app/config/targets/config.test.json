@@ -1,0 +1,37 @@
+{
+    "defaultLanguage": "fr",
+    "html5Mode": {
+        "enabled": false,
+        "requireBase": false
+    },
+    "hashPrefix": "!",
+    "theme": "origin",
+    "useSanitizeValueStrategy": "sanitizeParameters",
+    "useStaticFilesLoader": {
+        "prefix": "languages/min/",
+        "suffix": ".min.json"
+    },
+    "baseUrl": "http://exemple.com/",
+    "target": "dev",
+    "compile": true,
+    "logs": {
+        "enabled": true,
+        "exceptions": {
+            "enabled": true
+        },
+        "http": {
+            "enabled": true
+        },
+        "language": {
+            "enabled": true
+        },
+        "test": {
+            "enabled": true
+        },
+        "theme": {
+            "enabled": true
+        }
+    },
+    "localeLocationPattern": "bower_components/angular-i18n/angular-locale_{{locale}}.js",
+    "defaultTitle": "SNEG License"
+}
